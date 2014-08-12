@@ -1,0 +1,189 @@
+body{
+     margin: 0 auto;
+     height: 1450px;
+     width: 100%;
+	 color: white;
+         background-color: #fff;
+    }
+
+#menu-index{
+     text-align: center;
+     background-color: white;
+	 margin-left:10%;
+     margin-top: -75px;	
+     height: 150px;
+     float: left;
+     width: 80%;
+     position:absolute;
+     box-shadow:  0px 4px 10px 0px #ccc;
+   }  
+   
+ 
+ #botaopesquisa{background-color: #3a84ab;
+                border: 2px solid #3a84ab;
+                color: #FFF;
+                cursor: pointer;}
+   
+#simulaTop{height: 45px;
+           width: 100%;
+           background-color: #fff;}
+
+
+header{
+      background-color: #333;
+      height: 100px;
+      width: 100%;
+      position: absolute;
+      top: 0;
+	  }		 
+			
+#logo{
+         margin-left: 0px;
+	 margin-top: 50px;
+        }
+ 
+#homezin{margin-top: 2px;}
+        
+#menu-inferior {
+          position: fixed;
+	  float: left;
+	  margin-left: 1050px;
+          background-color: #333;
+          margin-top: -30px;
+
+}
+
+
+#linksTopo{margin-left: 450px;
+           margin-top: 2px;}
+a{padding: 0px 6px;
+  color: #FFF;}
+
+a{
+font-family: 'Titillium Web', sans-serif;
+	 font-size: 12pt;
+     color: #3A5FCD;
+text-decoration: none;
+
+}
+		
+a:link {
+color: #999;
+font-family: 'Titillium Web', sans-serif;
+font-size: 12pt;
+text-decoration: none;
+}
+	
+a:visited{
+     color: #999;
+font-family: 'Titillium Web', sans-serif;
+font-size: 12pt;
+text-decoration: none;
+}
+
+a:hover {
+         color: #AAA;    
+font-family: 'Titillium Web', sans-serif;
+font-size: 12pt;
+text-decoration: none;
+}
+
+article{
+      float: left;
+      background-color: #fff;
+      height: 1000px;
+      width: 100%;
+    }
+
+#resultadopesquisa{
+       text-align: center;
+    background-color: white;
+	margin-left: 20%;
+	margin-top: -80px;
+    height: 525px;
+    float: left;
+    width: 60%;
+    position: absolute;
+	box-shadow: 0px 4px 10px 0px #ccc;
+}		
+
+	   
+footer {
+      background-color: #888;
+	  height: 140px;
+	  width: 100%;
+	  float: left;
+     }
+
+
+h1{
+    color: #696969;
+}
+
+h2{
+    color: steelblue;
+	text-align:center;
+    font-size: 36pt;
+
+}
+h5{
+font-family: 'Droid Sans', sans-serif;
+font-size: 12pt;
+color:#303030 ;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+p {
+     color: black;
+     text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12pt;
+}
+
+#comercio {display: block}
+#cadastroComercio {display: none}
+#listarComercio {display: none}
+
+#lazer {display: block}
+#cadastroLazer {display: none}
+#listarLazer {display: none}
+
+#categoria {display: block}
+#cadastroCategoria {display: none}
+#listarCategoria {display: none}
+
+#img{width: 22px; 
+     height: 37x;
+     float: left;}
+
+
+
+.tabela{width: 40%;
+            height: 50px;
+            background-color: #fff;
+            color: #000;
+            font-family: arial;
+            margin-left: 600px}
+
+
+th{
+              color: #fff;
+              background-color:#3983aa;
+              font-family: arial;
+              font-size: 16pt;
+              text-align: center}
+
+td{
+              color: #000;
+              font-family: arial;
+              font-size: 13pt;
+              text-align: center}
+
+#info {
+    width: 200px;
+    height: 150px;
+    border: 1px;
+    border-color: green;
+}

@@ -1,0 +1,193 @@
+body{
+     margin: 0 auto;
+     width: 1423px;
+     background-color: #f2f2f2;
+    }
+header{
+      background-color: #101723; 
+      height: 70px;
+      width: 1423px;
+      }
+      #pesquisa{
+	      margin-left: 10px;
+          float:left;
+          margin-top: 30px;
+      }    
+      
+      #botaopesquisa{background-color: #FFF;
+	                 font-family: arial;
+					 width: 100px;
+					 border: 3px solid #555;}
+      
+	  #botaopesquisa:hover{background-color: #b50824;
+	                 font-family: arial;
+					 width: 100px;
+					 color: #fff;
+					 border: 3px solid #555;
+					 cursor: pointer;}
+	  #txtPesquisa{padding: 2px;}
+	  
+	  
+      #imagem-pesquisa{
+          width: 15px;
+      }
+      #logo{
+         width: 300px; 
+         margin-left: 600px;
+		 
+margin-top: 7px;		 
+	 position: absolute;
+	 
+        }
+		
+        #h1-logo {
+		color:white;
+		font-family: Bodoni MT;
+		}
+		
+		
+        .img_logo{
+            width: 125px;
+            
+        }
+        
+    .img_fechar{width: 15px;}
+#menu-superior {
+          margin-right: 10px;
+	  margin-top: 25px;
+	  float: right;
+	  
+}
+
+      
+section{
+      height: 444px;
+      width: 1423px;
+        }
+        
+#menu_principal{ 
+     background-color: white;
+     margin-left: 171.5px;
+     margin-top: -75px;	
+     height: 150px;
+     width: 1080px;
+	 position:relative;
+	 box-shadow:  0px 4px 10px 0px #ccc;         
+        }
+        
+        
+a {
+       font-family: 'Helvetica Neue', sans-serif;
+       font-size: 12pt;
+       text-decoration: none;
+
+}
+		
+a:link {
+       color: white;
+       font-family: 'Helvetica Neue', sans-serif;
+       font-size: 12pt;
+       text-decoration: none;
+}
+	
+a:visited{
+     color: white;
+     font-family: 'Helvetica Neue', sans-serif;
+     font-size: 12pt;
+     text-decoration: none;
+}
+
+a:hover {
+         color: white;    
+         font-family: 'Helvetica Neue', sans-serif;
+         font-size: 12pt;
+         text-decoration: none;
+}
+ 
+article{
+      background-color: #f2f2f2;
+      height: 1000px;
+      width: 1423px;
+    }
+  
+    .conteudo{
+	
+	height: 230px;
+	width: 1000px;
+        margin-top: 110px;
+	margin-left: 211.5px;
+	background-color: #999;
+	}
+    
+    footer{  
+      background-color: #101723;
+      height: 100px;
+      width: 1423px;
+     }
+     
+.menu_img{ 
+         width: 25px;
+         
+     }
+     .menu_img2{
+         width: 28px;
+     }     
+     
+     .aviva{
+         
+         width: 120px;
+         margin-left: 10px;
+         margin-top: 10px;
+     }    
+     
+     .redesocial{
+         
+         width: 50px;
+         float: right;
+         margin-right: 20px;
+     }
+     
+     
+
+.tabela{width: 40%;
+            height: 50px;
+            background-color: #BFDFFF;
+            color: #000;
+            font-family: arial;}
+
+
+.imgTable{width: 160px; height: 60px;}
+
+.tituloTabela{color: #fff;
+              background-color:#3983aa;
+              font-family: arial;
+               font-size: 20pt;}
+
+
+.tituloTabela:hover{color: #fff;
+              background-color:#ae3636;
+              font-family: arial;
+               font-size: 20pt;
+              cursor: pointer;}
+
+.quebralinha{background-color: #3983aa;
+             font-size: 1px;}
+.menuLateral{float: left;
+             width: auto;
+             height: auto;
+             background-color: #000;
+             position: fixed;
+             top: 530px;}
+
+
+.menuDentro{background-color: #303030;
+            color: #FFF;
+            padding: 5px;}
+
+
+.menuDentro:hover{background-color: #ae3636;
+            color: #FFF;
+            padding: 5px;
+            cursor: pointer;}
+
+

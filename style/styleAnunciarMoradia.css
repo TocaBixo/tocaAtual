@@ -1,0 +1,37 @@
+#corpoTerciario{
+     margin: 0 auto;
+     height: 414px;
+     width: 1423px;
+    }
+
+#frmmoradia{
+                   position: absolute;
+                   margin-top: 100px;
+                   margin-left: 461.5px;
+                   width: 500px;
+		           height: 450px;
+		           background-color: #2D4568;                                      
+                   border-bottom-left-radius: 20px;
+                   border-bottom-right-radius: 20px;
+                   border-top-left-radius: 20px;
+                   border-top-right-radius: 20px;
+    }
+    label{
+        float:left;
+        color: white;
+        font-family: 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+    }
+	
+	.frmtitulo{
+        color: white;
+        
+    }
+    
+	
+    #conteudoTerciario{
+        background-color: #f2f2f2;
+        height: 700px;
+        width: 1423px;
+    }
+    

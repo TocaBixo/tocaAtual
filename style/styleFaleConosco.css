@@ -1,0 +1,34 @@
+    #corpoSecundario {
+	margin: 0 auto;
+     height: 414px;
+     width: 1423px;
+    }
+    #faleconosco{
+        width: 1423px;
+		height: 300px;
+    }
+    #faleconosco2{
+	    width:1423px;
+        height: 500px;
+    }
+    #fale1{width: 350px; height: 200px; background-color: #2D4568; float:left; margin-top: 70px; margin-left: 225px;
+                   border-bottom-left-radius: 15px;
+                   border-bottom-right-radius: 15px;
+                   border-top-left-radius: 15px;
+                   border-top-right-radius: 15px;}
+    #fale2{width: 350px; height: 200px; background-color: #2D4568; float: right; margin-top: 70px; margin-right: 225px;
+                   border-bottom-left-radius: 15px;
+                   border-bottom-right-radius: 15px;
+                   border-top-left-radius: 15px;
+                   border-top-right-radius: 15px;}
+    #fale3{width: 1000px; height: 350px; background-color: #2D4568; margin-top: 50px; 
+                   border-bottom-left-radius: 15px;
+                   border-bottom-right-radius: 15px;
+                   border-top-left-radius: 15px;
+                   border-top-right-radius: 15px;
+    margin-left: 211px;}
+  #conteudoSecundario{
+      background-color: #f2f2f2;
+      height: 800px;
+      width: 1423px;
+    }

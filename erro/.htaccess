@@ -1,0 +1,3 @@
+ErrorDocument 401 /erro/?401
+ErrorDocument 403 /erro/?403
+ErrorDocument 404 /erro/?404

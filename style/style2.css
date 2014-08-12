@@ -1,0 +1,71 @@
+h1{
+    color: #696969;
+}
+h2{
+    color: steelblue;
+    text-align:center;
+    font-size: 36pt;
+}
+h5{
+font-family: 'Droid Sans', sans-serif;
+font-size: 12pt;
+color:#303030 ;
+margin-left: 20px;
+margin-right: 20px;
+}
+p{
+     color: #FFF;
+     text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12pt;
+}  
+#boxes .window{
+  position:absolute;
+  margin-left: 500px;
+  margin-top: -155px;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:60px;
+}
+#boxes #dialog{
+  width:375px; 
+  height:233px;
+  padding:10px;
+  background-color:#000;
+border-bottom-left-radius: 20px;   
+border-bottom-right-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+font-family: 'Indie Flower';
+}
+
+.close{display:block; text-align:right;}
+
+#boxes2 .window2 {
+  position:absolute;
+  margin-left: 500px;
+  margin-top: -115px;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:60px;
+}
+
+#boxes2 #dialog2 {
+  width:375px; 
+  height:320px;
+  padding:10px;
+  background-color:#000;
+border-bottom-left-radius: 20px;   
+border-bottom-right-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+font-family: 'Indie Flower';
+}
+
+.close2{display:block; text-align:right;}
+
+#pagina {background-color: #696969}

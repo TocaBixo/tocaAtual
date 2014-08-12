@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Toca dos Bixos</title>
+        <link rel="stylesheet" type="text/css" href="style/stylePrincipal.css" />
+        <link rel="stylesheet" type="text/css" href="style/styleRotativo.css" />
+        <link rel="stylesheet" type="text/css" href="style/style2.css" />
+        <link rel="stylesheet" type="text/css" href="style/styleMenu.css" />
+        <link rel="stylesheet" type="text/css" href="style/styleFaleConosco.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script> 
+        <script type="text/javascript" src="js/cadastro.js"></script>
+        <script type="text/javascript" src="js/mostrar.js"></script> 
+        <script type="text/javascript" src="js/login.js"></script> 
+        <script type="text/javascript" src="js/valida.js"></script>
+        <script type="text/javascript" src="js/jquery-1.3.1.min.js"></script>	
+	<script type="text/javascript" language="javascript" src="js/jquery.dropdownPlain.js"></script>
+    </head>
+
+<body id="corpoSecundario">
+    <header>
+        
+<div id="pesquisa">
+                <form name="frmBusca" action="buscar.php" method="POST">
+		<img id="imagem-pesquisa" src="imagens/pesquisa.png" />
+                    <input type="text" name="txtPesquisa" rows="2">
+		<input type="submit" id="botaopesquisa" value="Pesquisar" >
+		</form>
+</div>
+        
+        <div id="logo">
+	  <img src="imagens/logo3.PNG" alt="logo" width="250px"/>
+	</div>
+        
+    <nav id="menu-superior">
+  <a href="index.php"> <img class="menu_img" src="imagens/casa.png" /></a>
+  <a href="faleconosco.html"> <img class="menu_img" src="imagens/faleconosco.png" /></a> 
+  <a href="anunciarmoradia.html"> <img class="menu_img2" src="imagens/anuncio.png" /></a> 
+  <a href="#dialog" name="login"> <img class="menu_img2" src="imagens/login.png" /></a>
+  <a href="#dialog2" name="login"></a>
+  
+
+<div id="boxes">
+  <div id="dialog" class="window">
+      <a href="#" class="close"> <img class="img_fechar" src="imagens/fechar.png"> </a> 
+         <form method="post" action="login_toca.php"> 
+             <table>
+                 <center>
+            <h1>Acesse sua conta</h1>
+                 </center> 
+            <tr>
+             <td><label>Email</label></td>
+             <td><input type="text" id="caixa"   name="email" onblur="return ValidaEmail(this.value)"  required autofocus /></td> 
+             </tr>
+             
+             <tr>
+             <td><label>Senha</label></td>
+             <td><input id="caixa" type="password" name="senha" required /></td> 
+             </tr>
+             
+             
+             <tr>
+             <td> </td>
+             <td><label><input id="caixa" type="submit" value="Entrar" class="entrar" /></label></td>
+             </tr>
+             
+             
+             <tr>
+             <td> </td>
+             <td><a href="#"> Esqueceu a sua senha? </a></td> 
+             </tr>
+           </table>
+  </form>
+   </div>
+   </div>  
+  
+    <div id="boxes2">
+      <div id="dialog2" class="window2">
+         <a href="#" class="close2"> <img class="img_fechar" src="imagens/fechar.png"/> </a> 
+        <form id="meu_form" action="novoUsuario.php" method="post">
+           
+            <center>
+            <h1> Cadastre-se </h1>
+            </center>
+            
+           <table>
+             <tr>
+             <td><label>Nome</label></td>
+             <td><input type="text" name="nome" id="nome" onkeypress="return SomenteLetra(event)" required required autofocus/></td> 
+             </tr>
+             
+             <tr>
+             <td><label>Email</label></td>
+             <td><input type="text" id="email1"   name="email" onblur="return ValidaEmail(this.value)" /></td>
+             </tr>
+             
+             <tr>
+             <td><label>Confirme o  email</label></td>
+             <td><input type="text" name="conflogin" onblur="igual(email1.value, this.value)" id="conflogin" required /></td>
+             </tr>
+             
+             <tr>
+             <td><label>Senha</label></td>
+             <td><input type="password" name="senha" id="senha" required/></td>
+             </tr>
+             
+             <tr>
+             <td><label>Confirme a senha</label></td>
+             <td><input type="password" name="confsenha" id="confsenha" required/></td>
+             </tr>
+
+             <tr>
+             <td> </td> 
+             <td><input type="submit" value="Cadastrar" /></td>
+             </tr>
+           </table>
+            
+            
+            <table>
+             <tr>
+             <td> </td>
+             <td><input type="checkbox" name="termos" id="termos">
+             <label>Li e aceito os <a href="termosUso.html"> Termos de uso e condições</a></label></td>
+             </tr>
+            </table>
+             
+     </form>
+          </div>
+          </div> 
+     </nav>    
+ 
+    </header>   
+    <article id="conteudoSecundario">
+	<section id="faleconosco">
+        <div id="fale1"></div>
+        <div id="fale2"></div>
+        </section>
+        <section id="faleconosco2">
+        <div id="fale3"></div>
+        </section>
+    </article>
+    
+    <footer>
+        <center>Copyright</center>
+        <img class="aviva" src="imagens/aviva.png" />
+        <img class="redesocial" src="imagens/facebook.png" />
+        <img class="redesocial" src="imagens/instagram.png" />
+        <img class="redesocial" src="imagens/twitter.png" />
+    </footer>
+</body>
+</html>

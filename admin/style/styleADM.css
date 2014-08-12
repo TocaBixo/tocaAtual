@@ -1,0 +1,290 @@
+body{
+     margin: 0 auto;
+     height: 100%;
+     width: 100%;
+     color: white;
+    }
+
+			
+#logo{
+         margin-left: 45%; 
+	 margin-top: 2px;
+         height: 50px;
+         width: 20%;
+         position: absolute;
+	 
+        }
+       	
+#menu-inferior {
+          position: absolute;
+	  margin-top: 25px;
+	  float: left;
+	  margin-left: 63%;
+
+}
+	
+
+a {
+       font-family: 'Helvetica Neue', sans-serif;
+       font-size: 12pt;
+       color: #902725;
+       text-decoration: none;
+
+}
+		
+a:link {
+       color: white;
+       font-family: 'Helvetica Neue', sans-serif;
+       font-size: 12pt;
+       text-decoration: none;
+}
+	
+a:visited{
+     color: #902725;
+     font-family: 'Helvetica Neue', sans-serif;
+     font-size: 12pt;
+     text-decoration: none;
+}
+
+a:hover {
+         color: #902725;    
+         font-family: 'Helvetica Neue', sans-serif;
+         font-size: 12pt;
+         text-decoration: none;
+}
+
+
+
+article{
+      float: left;
+      background-color: #f2f2f2;
+      height: 1000px;
+      width: 100%;
+    }
+
+#resultadopesquisa{
+    text-align: center;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: -80px;
+    height: 525px;
+    float: left;
+    width: 60%;
+    position: absolute;
+	box-shadow: 0px 4px 10px 0px #ccc;
+}		
+
+	   
+footer {  
+          background-color: #ddcdaf;
+	  height: 90px;
+	  width: 100%;
+          float: left;
+	  
+     }
+
+
+h1{
+    color: #696969;
+}
+
+h2{
+    color: steelblue;
+	text-align:center;
+    font-size: 36pt;
+
+}
+h5{
+font-family: 'Droid Sans', sans-serif;
+font-size: 12pt;
+color:#303030 ;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+p {
+     color: #FFF;
+     text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12pt;
+}
+
+#margetopofooter{
+margin-top: 20px;
+}
+
+.menu{
+    list-style: none;
+   
+    float:left;
+    font-size: 20px;
+    
+  
+}
+
+.menu li{
+    position:relative;
+    float:left
+    
+	
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    margin-top:10px;
+    
+}
+
+.menu li a:hover{
+    -moz-box-shadow: 0 3px 10px 0;
+    -webkit-box-shadow: 0 3px 10px 0;
+    text-shadow: 0px 0px 5px;
+}
+
+.menu li ul{
+    position: absolute;
+    top:25px;
+    float:center;
+    display: none;
+    margin-top:100px;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+}
+
+.menu li ul li{
+    margin-top:10px;
+    display: block;
+    width: 150px;
+    margin-border:0px;
+}
+
+
+#comercio {display: block}
+#cadastroComercio {display: none}
+#listarComercio {display: none}
+
+#lazer {display: block}
+#cadastroLazer {display: none}
+#listarLazer {display: none}
+#img{width: 22px; 
+     height: 37x;
+     float: left;}
+
+.admLog {
+		   width: 450px;
+		   height: 245px;
+		   background-color: #101723;
+		   margin-top:310px;
+		   margin-left: 38%;
+                   text-align: center;
+                   border-bottom-left-radius: 20px;
+                   border-bottom-right-radius: 20px;
+                   border-top-left-radius: 20px;
+                   border-top-right-radius: 20px;
+}
+
+.adm{
+	 margin-left: 23%;
+	 margin-top: 300px;
+         height: 70px;
+        }
+
+
+.tabela
+      {
+        border: 2px solid #8B8386;
+        background-color: #444;
+        font-family: Tahoma;
+        font-size: 10pt;
+        font-weight: bold;
+        color: #FFF;
+        width: 100%;
+        height: 50px;
+      }
+
+ .form{color: #FFF;}
+      
+#label{
+    text-align: right;
+}
+
+
+#menu-index{
+     text-align: center;
+     background-color: white;
+	 margin-left:10%;
+     margin-top: -75px;	
+     height: 150px;
+     float: left;
+     width: 80%;
+     position:absolute;
+     box-shadow:  0px 4px 10px 0px #ccc;
+   }  
+   
+ 
+ #botaopesquisa{background-color: #3a84ab;
+                border: 2px solid #3a84ab;
+                color: #FFF;
+                cursor: pointer;}
+   
+#simulaTop{height: 45px;
+           width: 100%;}
+
+header{
+      background-color: #333;
+      height: 100px;
+      width: 100%;
+      position: absolute;
+      top: 0;
+	  }
+          
+
+  
+#pesquisa{
+	  margin-top:20px;  
+          margin-left: 55px;
+          float: left;	   
+	     }
+  
+.pesquisa{
+	  margin-top:8px;  
+          margin-left: 10px;
+          float: left;	 
+          cursor: pointer;
+	     }
+		 
+			
+#logo{
+         float: left;
+         margin-left: 3px;
+	 margin-top: -3px;
+        }
+ 
+#homezin{margin-top: 2px;}
+        
+#menu-inferior {
+          position: absolute;
+	  
+	  float: left;
+	  margin-left: 170px;
+          background-color: #333;
+          width: 1210px;
+          height: 40px;
+          margin-top: 50px;
+
+}
+
+
+#linksTopo{margin-left: 340px;
+           margin-top: 3px;}
+a{padding: 0px 6px;
+  color: #FFF;}
+
+
+td{text-align: right;}
